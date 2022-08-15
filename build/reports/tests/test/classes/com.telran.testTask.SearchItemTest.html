@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">11.556s</div>
+<div class="counter">13.021s</div>
 <p>duration</p>
 </div>
 </td>
@@ -76,14 +76,14 @@
 <a name="searchItemTest"></a>
 <h3 class="failures">searchItemTest</h3>
 <span class="code">
-<pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: div._111XI.main:nth-child(5) div._3R9u6 nav._3mU1o ul._381y5._21Njf:nth-child(2) li:nth-child(2) div:nth-child(1) div._35SYu._1vnug a._3Lwc_ &gt; span._3z8Gf
+<pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: [data-id='button-all']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'iMac-ipaparazzi', ip: '192.168.0.140', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220729222726, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 27391, moz:profile: /var/folders/v8/0q8k2yy15sj..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7fa225a4-9888-4da7-868f-377a2880973f
-*** Element info: {Using=css selector, value=div._111XI.main:nth-child(5) div._3R9u6 nav._3mU1o ul._381y5._21Njf:nth-child(2) li:nth-child(2) div:nth-child(1) div._35SYu._1vnug a._3Lwc_ &gt; span._3z8Gf}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220729222726, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 95290, moz:profile: /var/folders/v8/0q8k2yy15sj..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ece0fee3-994d-4d6e-9769-882965988253
+*** Element info: {Using=css selector, value=[data-id='button-all']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -98,7 +98,9 @@ Session ID: 7fa225a4-9888-4da7-868f-377a2880973f
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.telran.testTask.SearchItemTest.searchItemTest(SearchItemTest.java:38)
+	at com.telran.testTask.SearchItemTest.click(SearchItemTest.java:105)
+	at com.telran.testTask.SearchItemTest.acceptCookies(SearchItemTest.java:117)
+	at com.telran.testTask.SearchItemTest.searchItemTest(SearchItemTest.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -168,7 +170,7 @@ Session ID: 7fa225a4-9888-4da7-868f-377a2880973f
 </thead>
 <tr>
 <td class="failures">searchItemTest</td>
-<td class="failures">11.556s</td>
+<td class="failures">13.021s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -176,22 +178,21 @@ Session ID: 7fa225a4-9888-4da7-868f-377a2880973f
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>1660168619045	geckodriver	INFO	Listening on 127.0.0.1:3686
-1660168619235	mozrunner::runner	INFO	Running command: &quot;/Applications/Firefox.app/Contents/MacOS/firefox-bin&quot; &quot;--marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;/var/folders/v8/0q8k2yy15sj18t3h7qyhx29m0000gn/T/rust_mozprofilexOTiFB&quot;
-1660168620815	Marionette	INFO	Marionette enabled
-1660168620840	Marionette	INFO	Listening on port 65370
-Read port: 65370
-1660168621188	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at /var/folders/v8/0q8k2yy15sj18t3h7qyhx29m0000gn/T/rust_mozprofilexOTiFB/search.json.mozlz4&quot;, (void 0)))
-авг. 10, 2022 11:57:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+<pre>1660602467466	geckodriver	INFO	Listening on 127.0.0.1:27570
+1660602467901	mozrunner::runner	INFO	Running command: &quot;/Applications/Firefox.app/Contents/MacOS/firefox-bin&quot; &quot;--marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;/var/folders/v8/0q8k2yy15sj18t3h7qyhx29m0000gn/T/rust_mozprofile3zoAdn&quot;
+1660602469711	Marionette	INFO	Marionette enabled
+1660602469771	Marionette	INFO	Listening on port 51432
+Read port: 51432
+1660602470021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at /var/folders/v8/0q8k2yy15sj18t3h7qyhx29m0000gn/T/rust_mozprofile3zoAdn/search.json.mozlz4&quot;, (void 0)))
+авг. 16, 2022 12:27:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript warning: https://yastatic.net/s3/market-static/white-desktop/browser.stable.4cb52f0.js, line 9: unreachable code after return statement
-JavaScript warning: https://yastatic.net/s3/market-static/white-desktop/browser.stable.4cb52f0.js, line 21: unreachable code after return statement
-JavaScript warning: https://yastatic.net/s3/market-static/white-desktop/browser.stable.4cb52f0.js, line 21: unreachable code after return statement
-JavaScript warning: https://yastatic.net/s3/market-static/white-desktop/browser.vendor.8caa9e7.js, line 65: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript error: https://yastatic.net/s3/market-static/white-desktop/browser.vendor.8caa9e7.js, line 6: ReducerCollisionError: There are two different reducers for &quot;visibleSearchResult&quot;
-JavaScript error: https://yastatic.net/s3/market-static/white-desktop/browser.vendor.8caa9e7.js, line 6: UnexpectedStatusError: 403: Forbidden
-JavaScript error: https://yastatic.net/s3/market-static/white-desktop/browser.vendor.8caa9e7.js, line 29: TypeError: e.type is undefined
+1660602476755	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://yastatic.net/s3/market-static/white-desktop/browser.stable.2e3ee27.js, line 9: unreachable code after return statement
+JavaScript warning: https://yastatic.net/s3/market-static/white-desktop/browser.stable.2e3ee27.js, line 21: unreachable code after return statement
+JavaScript warning: https://yastatic.net/s3/market-static/white-desktop/browser.stable.2e3ee27.js, line 21: unreachable code after return statement
+JavaScript warning: https://yastatic.net/s3/market-static/white-desktop/browser.vendor.367e718.js, line 65: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://yastatic.net/s3/market-static/white-desktop/browser.vendor.367e718.js, line 6: ReducerCollisionError: There are two different reducers for &quot;visibleSearchResult&quot;
 </pre>
 </span>
 </div>
@@ -203,7 +204,7 @@ JavaScript error: https://yastatic.net/s3/market-static/white-desktop/browser.ve
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.1</a> at 10 авг. 2022 г., 23:57:17</p>
+<a href="http://www.gradle.org">Gradle 7.1</a> at 16 авг. 2022 г., 0:28:08</p>
 </div>
 </div>
 </body>
