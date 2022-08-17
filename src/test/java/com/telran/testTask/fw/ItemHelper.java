@@ -13,7 +13,7 @@ public class ItemHelper extends HelperBase {
 
     public void typeInSearchInputField(String itemName) {
         type(By.id("header-search"), itemName);
-        click(By.cssSelector("[dara-r='search-button']"));
+        click(By.cssSelector("[data-r='search-button']"));
     }
 
     public String getItemNameFromListByNumber(int number) {

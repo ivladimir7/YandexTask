@@ -1,0 +1,45 @@
+355  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -441602218
+358  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+360  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+360  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+361  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+363  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 2145600429
+363  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+363  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+363  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+363  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+365  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE SearchItemTest.searchItemTest()[pri:0, instance:com.telran.testTask.tests.SearchItemTest@594cda70] -861224104
+366  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+366  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+366  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+366  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+6194 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [data-id='market'
+6266 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [data-id='market' was found.
+6396 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.xpath: //span[text()='Экспресс']
+7100 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.xpath: //span[text()='Экспресс'] was found.
+8855 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [data-id='button-all']
+18939 [Test worker] INFO  c.t.testTask.utilits.MyListener -  We have a Throwable -->Unable to locate element: [data-id='button-all']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'iMac-ipaparazzi', ip: '192.168.0.140', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.15'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220729222726, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 15684, moz:profile: /var/folders/v8/0q8k2yy15sj..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77ba0461-aa3e-4b21-bafa-06592fa71531
+*** Element info: {Using=css selector, value=[data-id='button-all']}
+18939 [Test worker] INFO  c.t.testTask.utilits.MyListener -  We have a Throwable -->Unable to locate element: [data-id='button-all']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'iMac-ipaparazzi', ip: '192.168.0.140', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.15'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220729222726, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 15684, moz:profile: /var/folders/v8/0q8k2yy15sj..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77ba0461-aa3e-4b21-bafa-06592fa71531
+*** Element info: {Using=css selector, value=[data-id='button-all']}
+18939 [Test worker] INFO  c.t.testTask.utilits.MyListener -  We have a Throwable -->org.openqa.selenium.NoSuchElementException: Unable to locate element: [data-id='button-all']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'iMac-ipaparazzi', ip: '192.168.0.140', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.15'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220729222726, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 15684, moz:profile: /var/folders/v8/0q8k2yy15sj..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77ba0461-aa3e-4b21-bafa-06592fa71531
+*** Element info: {Using=css selector, value=[data-id='button-all']}
+19811 [Test worker] INFO  c.t.testTask.utilits.MyListener - This is link with error/screenshots/screen874.png

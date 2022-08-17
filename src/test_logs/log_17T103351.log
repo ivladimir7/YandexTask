@@ -1,0 +1,76 @@
+405  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -441602218
+408  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+411  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+411  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+411  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+413  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 2145600429
+413  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+413  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+413  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+413  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+415  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE SearchItemTest.searchItemTest()[pri:0, instance:com.telran.testTask.tests.SearchItemTest@594cda70] -861224104
+416  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+416  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+416  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+416  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+5206 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [data-id='market'
+5242 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [data-id='market' was found.
+5503 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.xpath: //span[text()='Экспресс']
+8914 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.xpath: //span[text()='Экспресс'] was found.
+10386 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [data-id='button-all']
+10416 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [data-id='button-all'] was found.
+10454 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express']
+10495 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express'] was found.
+14397 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [href='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']
+14494 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [href='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl'] was found.
+19133 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(1) ._3qxDp
+19343 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(1) ._3qxDp was found.
+19519 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(1) ._3qxDp
+19529 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(1) ._3qxDp was found.
+19577 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(1) ._3qxDp
+19593 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(1) ._3qxDp was found.
+19699 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(2) ._3qxDp
+19721 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(2) ._3qxDp was found.
+19832 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(2) ._3qxDp
+19848 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(2) ._3qxDp was found.
+19897 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(2) ._3qxDp
+19915 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(2) ._3qxDp was found.
+19967 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.xpath: //span[text()='Apple']
+20000 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.xpath: //span[text()='Apple'] was found.
+30172 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: div:nth-child(3) ._2UHry
+30188 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: div:nth-child(3) ._2UHry was found.
+30207 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.id: header-search
+30217 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.id: header-search was found.
+30327 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.id: header-search
+30350 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.id: header-search was found.
+30385 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.id: header-search
+30394 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.id: header-search was found.
+30579 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [data-r='search-button']
+30594 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [data-r='search-button'] was found.
+30672 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: div:nth-child(2) ._2UHry
+35468 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: div:nth-child(2) ._2UHry was found.
+35810 [Test worker] INFO  c.t.testTask.utilits.MyListener -  We have a Throwable -->stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'iMac-ipaparazzi', ip: '192.168.0.140', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v8/0q8k2yy15sj...}, goog:chromeOptions: {debuggerAddress: localhost:64146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6df228efb11e3ccbd0335e83350a05ac
+35811 [Test worker] INFO  c.t.testTask.utilits.MyListener -  We have a Throwable -->stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'iMac-ipaparazzi', ip: '192.168.0.140', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v8/0q8k2yy15sj...}, goog:chromeOptions: {debuggerAddress: localhost:64146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6df228efb11e3ccbd0335e83350a05ac
+35811 [Test worker] INFO  c.t.testTask.utilits.MyListener -  We have a Throwable -->org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'iMac-ipaparazzi', ip: '192.168.0.140', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v8/0q8k2yy15sj...}, goog:chromeOptions: {debuggerAddress: localhost:64146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6df228efb11e3ccbd0335e83350a05ac
+37144 [Test worker] INFO  c.t.testTask.utilits.MyListener - This is link with error/screenshots/screen2067.png

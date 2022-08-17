@@ -9,15 +9,13 @@ public class HelperSearch extends HelperBase {
         super(wd);
     }
 
-    public void SelectCategoryType(String type) {
-        click(By.cssSelector("[href='/catalog-- "+ type +"?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']"));
-
+    public void selectCategoryType(String type) {
+        click(By.cssSelector("[href='/catalog--" + type + "?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']"));
     }
 
-    public void SelectCatalog(String categorie) {
-        click(By.cssSelector("[href='/catalog--" + categorie + "/list?filter-express-delivery=1&searchContext=express']"));
+    public void selectCatalog(String category) {
+        click(By.cssSelector("[href='/catalog--" + category + "/list?filter-express-delivery=1&searchContext=express']"));
     }
-
 
 
     public void selectMarket() {

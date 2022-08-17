@@ -1,0 +1,51 @@
+343  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -441602218
+346  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+355  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+355  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+355  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+356  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 2145600429
+356  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+357  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+357  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+357  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+359  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE SearchItemTest.searchItemTest()[pri:0, instance:com.telran.testTask.tests.SearchItemTest@49b8cf23] -1122584565
+359  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+359  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+359  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+359  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+5654 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [data-id='market'
+5961 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [data-id='market' was found.
+6235 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.xpath: //span[text()='Экспресс']
+10384 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.xpath: //span[text()='Экспресс'] was found.
+12076 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [data-id='button-all']
+12129 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [data-id='button-all'] was found.
+12211 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express']
+12233 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express'] was found.
+15730 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [href='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']
+15825 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [href='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl'] was found.
+19856 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(1) ._3qxDp
+20104 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(1) ._3qxDp was found.
+20312 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(1) ._3qxDp
+20330 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(1) ._3qxDp was found.
+20377 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(1) ._3qxDp
+20400 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(1) ._3qxDp was found.
+20515 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(2) ._3qxDp
+20557 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(2) ._3qxDp was found.
+20639 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(2) ._3qxDp
+20647 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(2) ._3qxDp was found.
+20697 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: ._1heDd:nth-child(2) ._3qxDp
+20726 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: ._1heDd:nth-child(2) ._3qxDp was found.
+20780 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.xpath: //span[text()='Apple']
+20809 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.xpath: //span[text()='Apple'] was found.
+30997 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: div:nth-child(3) ._2UHry
+31009 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: div:nth-child(3) ._2UHry was found.
+31028 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.id: header-search
+31038 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.id: header-search was found.
+31177 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.id: header-search
+31195 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.id: header-search was found.
+31231 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.id: header-search
+31246 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.id: header-search was found.
+31451 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [data-r='search-button']
+31464 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [data-r='search-button'] was found.
+31566 [Test worker] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: div:nth-child(2) ._2UHry
+36835 [Test worker] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: div:nth-child(2) ._2UHry was found.
