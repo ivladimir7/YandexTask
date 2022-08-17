@@ -1,0 +1,29 @@
+326  [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/ipaparazzi/GitHub_Projekts/YandexTask/src/test/resources/testNgSmokY.xml"
+526  [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -441602218
+526  [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+528  [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+528  [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+528  [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+530  [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 2145600429
+530  [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+530  [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+530  [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+530  [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+532  [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE SearchItemTest.searchItemTest()[pri:0, instance:com.telran.testTask.tests.SearchItemTest@338fc1d8] -1494373696
+533  [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+533  [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+533  [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+533  [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+537  [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/ipaparazzi/GitHub_Projekts/YandexTask/src/test/resources/testNgSmokY.xml
+
+5662 [main] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [data-id='market'
+5678 [main] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [data-id='market' was found.
+5971 [main] INFO  c.t.testTask.utilits.MyListener - Start searchBy.xpath: //span[text()='Экспресс']
+8675 [main] INFO  c.t.testTask.utilits.MyListener - By.xpath: //span[text()='Экспресс'] was found.
+10254 [main] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [data-id='button-all']
+10272 [main] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [data-id='button-all'] was found.
+10325 [main] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express']
+10344 [main] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express'] was found.
+13949 [main] INFO  c.t.testTask.utilits.MyListener - Start searchBy.cssSelector: [href='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']
+14045 [main] INFO  c.t.testTask.utilits.MyListener - By.cssSelector: [href='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl'] was found.
