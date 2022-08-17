@@ -18,14 +18,14 @@ public class SearchItemTest extends TestBase {
         app.getSearch().selectCatalog("elektronika/23282330");
         app.getSearch().selectCategoryType("smartfony-i-aksessuary/23282379");
 
-//        app.getItem().filterItem(new Item().setPriceFrom("20000").setPriceTo("35000").setBrand("Apple"));
-//        app.getItem().pause(10000);
-//        String itemName = app.getItem().getItemNameFromListByNumber(3);
-//        System.out.println(itemName);
-//        app.getItem().typeInSearchInputField(itemName);
-//        String foundItemName= app.getItem().getItemNameFromListByNumber(2);
-//        app.getSearch().pause(10000);
-//        System.out.println(foundItemName);
+        app.getItem().filterItem(new Item().setPriceFrom("20000").setPriceTo("35000").setBrand("Apple"));
+        app.getItem().pause(10000);
+        String itemName = app.getItem().getItemNameFromListByNumber(3);
+        System.out.println(itemName);
+        app.getItem().typeInSearchInputField(itemName);
+        String foundItemName= app.getItem().getItemNameFromListByNumber(2);
+        app.getSearch().pause(10000);
+        System.out.println(foundItemName);
 //        Assert.assertEquals(foundItemName,itemName);
 
     }
